@@ -1,0 +1,63 @@
+/* <style>@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');</style> */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background-color: rgb(27, 25, 56);
+    display: flex;
+    width: 72vw;
+    margin: auto;
+    margin-top: 100px;
+    height: 72.5vh;
+    border-radius: 10px;
+}
+.left{
+    padding: 70px;
+    width: 50%;
+}
+.card .left .topLeft h1{
+color: #fff;
+}
+.card .left .topLeft h4{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    margin-top: 30px;
+    font-family: "smooch";
+}
+span{
+    color: rgb(105, 78, 242);
+}
+.bottomLeft{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.bottomLeft h1{
+    color: #fff;
+}
+.bottomLeft h5{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.right{
+    background-color: rgb(198, 16, 16);
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.right img{
+    border-radius: 0 10px 10px 0;
+    height: 72.5vh;
+    opacity: 0.5;  
+}
+
+
+    
